@@ -1,95 +1,99 @@
 @font-face {
-	font-family: 'Karate';
+    font-family: 'Karate';
     src: url('font/Karate.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 }
-body {
-  background: white;
-  font-family: Karate, sans-serif;
-  font-size: 2rem;
 
+body {
+    background: white;
+    font-family: Karate, sans-serif;
+    font-size: 2rem;
 }
 
 a {
-  font-weight: bold;
-  color: yellow;
+    font-weight: bold;
+    color: yellow;
 }
 
 #container {
-  background: black;
-  display: flex;           /* establish flex container */
-  flex-direction: column;  /* make main axis vertical */
-  justify-content: center; /* center items vertically, in this case */
-  align-items: center;     /* center items horizontally, in this case */
-  height: 99vh;
+    background: black;
+    display: flex;
+    /* establish flex container */
+    flex-direction: column;
+    /* make main axis vertical */
+    justify-content: center;
+    /* center items vertically, in this case */
+    align-items: center;
+    /* center items horizontally, in this case */
+    height: 99vh;
 }
 
 .box {
-  width: 75%;
-  margin: 5px;
-  text-align: center;     /* will center text in <p>, which is not a flex item */
+    width: 75%;
+    margin: 5px;
+    text-align: center;
+    /* will center text in <p>, which is not a flex item */
 }
 
 p, li {
-  color: white;
-  font-family: Karate, sans-serif;
+    color: white;
+    font-family: Karate, sans-serif;
 }
 
 li {
-  list-style: none;
+    list-style: none;
 }
 
-img{
-	max-width: 50%;
+img {
+    max-width: 50%;
 }
+
 #pizzakarate {
-	max-width: 30%;
+    max-width: 30%;
 }
 
-button{
-
-	height:10vh;
-	width:30vw;
-	background-color: black;
-	cursor: pointer;
-	font-size: 200%;
-	font-family: Karate, sans-serif;
-	color: white;
-	border: 5px solid;
-	border-radius: 2%;
-	border-color: white;
+button {
+    height: 10vh;
+    width: 30vw;
+    background-color: black;
+    cursor: pointer;
+    font-size: 200%;
+    font-family: Karate, sans-serif;
+    color: white;
+    border: 5px solid;
+    border-radius: 2%;
+    border-color: white;
 }
 
-
-button:hover{
-	background-color: #FBE203;
-	color: #F03030;
-	border-color: #ECBF85;
+button:hover {
+    background-color: #FBE203;
+    color: #F03030;
+    border-color: #ECBF85;
 }
 
 #ninja:hover {
-	border-color: aqua;
+    border-color: aqua;
 }
 
-#rounds{
-	font-size: 250%;
-	margin:5px;
+#rounds {
+    font-size: 250%;
+    margin: 5px;
 }
 
 #pizzatransparent {
-	max-width: 20%;
-	opacity: 0.2;
+    max-width: 20%;
+    opacity: 0.2;
 }
 
 #pizzanormal {
-	max-width: 20%;
+    max-width: 20%;
 }
 
 #text {
-	margin :2px;
+    margin: 2px;
 }
 
 #buttontext {
-	font-size: 100%;
+    font-size: 100%;
 }
